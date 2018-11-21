@@ -1,0 +1,16 @@
+{
+  "name": "tableapi",
+  "version": "1.0.0",
+  "description": "table and json api",
+  "main": "table.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node table.js"
+  },
+  "author": "Ali Bitar",
+  "license": "ISC"
+}
