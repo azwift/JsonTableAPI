@@ -2,6 +2,7 @@
 <strong>Author:</strong> Ali Bitar<br>
 
 Application that converts json to an html table and allows the user to export the source<br>
+<a href="https://azwift.github.io/JsonTableAPI/src" target="_blank">https://azwift.github.io/JsonTableAPI/src</a><br>
 
 # local evironment setup
 
