@@ -9,4 +9,4 @@ Application that converts json to an html table and allows the user to export th
 open repository in the command line and run the following commands:<br>
 * npm install<br>
 * npm start<br>
-open browser to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a></b>
+* open browser to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a></b>
