@@ -31,7 +31,7 @@
 			else{
 				this.exportBtn.download = `filename.txt`;
 			}
-			this.exportBtn.href = `data:application/vnd.ms-excel,${this.table.parentElement.outerHTML}`;
+			this.exportBtn.href = `data:text/plain,${this.table.parentElement.outerHTML}`;
 		}
 		copyTxt(event){
 			this.copyArea.setAttribute("value", this.table.parentElement.outerHTML);
@@ -67,7 +67,7 @@
 	window.addEventListener("load", init);
 
 	function init(){
-		const config = {jsonPath : "https://jsonplaceholder.typicode.com/users",table: null};
+		const config = {jsonPath : "https://jsonplaceholder.typicode.com/comments",table: null};
 		config.table = new Table();
 		if(!config.table.table){
 			console.error("Table not found");
