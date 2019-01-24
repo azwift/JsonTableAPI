@@ -1,4 +1,4 @@
-# JsonTableAPI
+# JsonToTable
 <strong>Author:</strong> Ali Bitar<br>
 
 Application that converts json to an html table and allows the user to export the source<br>
